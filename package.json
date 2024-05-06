@@ -1,0 +1,37 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "13.1.1",
+    "@tensorflow-models/coco-ssd": "^2.2.2",
+    "@tensorflow/tfjs": "^3.21.0",
+    "date-fns": "^2.29.3",
+    "eslint": "8.31.0",
+    "eslint-config-next": "13.1.1",
+    "lodash": "^4.17.21",
+    "next": "13.1.1",
+    "nosleep.js": "^0.12.0",
+    "npm": "^9.2.0",
+    "peerjs": "^1.4.7",
+    "qrcode": "^1.5.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-ga": "^3.3.1",
+    "react-webcam": "^7.0.1",
+    "recoil": "^0.7.6",
+    "uniqid": "^5.4.0"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^6.5.1",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4"
+  }
+}

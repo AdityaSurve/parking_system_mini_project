@@ -1,0 +1,10 @@
+const DashboardLayout = ({ children }) => {
+  return (
+    <div className=" md:h-screen  flex flex-col justify-between w-max-w-[1000px] min-h-screen w-max-w-[100px]  bg-fixed bg-no-repeat bg-cover  bg-hero">
+      <main className="grow  flex flex-col justify-center items-center  ">
+        {children}
+      </main>
+    </div>
+  );
+};
+export default DashboardLayout;
